@@ -1,27 +1,27 @@
-## EX - 11 : Implementation of Elliptic curve Cryptography
-## AIM:
+# EX - 11 : Implementation of Elliptic curve Cryptography
+# AIM:
 Implementation of Elliptic Curve Cryptography using a Standard Library.
 
-## ALGORITHM:
-# STEP-1:
+# ALGORITHM:
+## STEP-1:
 Start the program and import the required libraries.
 
-# STEP-2:
+## STEP-2:
 Define the elliptic curve parameters (a, b) and prime modulus (p) that define the curve (y^2=x^3+ax+b)
 
-# STEP-3:
+## STEP-3:
 Implement the point addition and point doubling operations for elliptic curves.
 
-# STEP-4:
+## STEP-4:
 Implement scalar multiplication to perform cryptographic operations.
 
-# STEP-5:
+## STEP-5:
 Use the scalar multiplication function to generate a public key from a private key.
 
-# STEP-6:
+## STEP-6:
 Use ECC to perform key exchange or encryption and end the program.
 
-## PROGRAM:
+# PROGRAM:
 ```
  #include <stdio.h>
 struct Point 
@@ -112,10 +112,10 @@ int main()
 }
 ```
     
-## OUTPUT:
+# OUTPUT:
 ![image](https://github.com/user-attachments/assets/dcf9e713-3fd4-43a3-997a-57b31978be77)
 
 
 
-## RESULT:
+# RESULT:
 The implementation of Elliptic Curve Cryptography using a standard library is successful.
